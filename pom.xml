@@ -28,18 +28,7 @@
         </dependency>
     </dependencies>
 
-    
-   <repository>
-        <id>deploymentRepoReleases</id>
-        <name>Releases (Nexus)</name>
-        <url>http://localhost:8081/repository/Releases/</url>
-    </repository>
-    <repository>
-        <id>deploymentRepoSnapshots</id>
-        <name>Snapshots (Nexus)</name>
-        <url>http://localhost:8081/repository/maven-snapshots/</url>
-    </repository>
-    
+     
     
     <build>
         <plugins>
